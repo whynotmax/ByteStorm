@@ -1,5 +1,17 @@
 # ⚡ ByteStorm – Das modulare Minecraft Cloud-System
 
+---
+
+## 🚀 Information
+
+Dieses Projekt ist in einer frühen Entwicklungsphase und wird ständig weiterentwickelt.
+Um die aktuellsten Informationen zu erhalten, schau bitte regelmäßig auf unserem [Discord](https://discord.gg/your-discord-link) vorbei!
+
+Um die Cloud auszutesten, kannst du ein Ticket auf unserem Discord erstellen.
+**Wichtig**: Das System ist noch nicht für den produktiven Einsatz geeignet und sollte nur zu Testzwecken verwendet werden!
+
+---
+
 <p align="center">
     <img alt="ByteStorm Logo" height="175" src="assets/img/logo_transparent.png" title="ByteStorm Logo" width="175" />
 </p>
