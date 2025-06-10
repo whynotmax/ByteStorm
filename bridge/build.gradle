@@ -1,0 +1,7 @@
+dependencies {
+    implementation project(':common')
+    implementation project(':api')
+
+    // Bungee oder Velocity-API (je nach Bedarf)
+    compileOnly 'com.velocitypowered:velocity-api:3.2.0-SNAPSHOT'
+}
