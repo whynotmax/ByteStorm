@@ -1,13 +1,18 @@
-# ⚡ ByteStorm – Das modulare Minecraft Cloud-System
+<div style="display: flex; align-items: flex-start; gap: 20px;">
 
-<img alt="ByteStorm Logo" height="150" src="assets/img/logo.png" title="ByteStorm Logo" width="150"/>
+  <img alt="ByteStorm Logo" src="assets/img/logo.png" title="ByteStorm Logo" width="150" height="150" />
 
-**ByteStorm** ist ein modulares, hochperformantes Cloud-System für Minecraft-Servernetzwerke.  
-Es wurde von Grund auf in Java entwickelt, um Skalierbarkeit, Erweiterbarkeit und Wartbarkeit sicherzustellen.  
-Es folgt dem Prinzip: **"Ein Modul, eine Aufgabe – maximaler Impact!"** 🧠💻
-Das coole an dem Projekt? Es ist **komplett Open Source**! Jeder kann mitmachen und das System erweitern.
-Jede/r ist herzlich eingeladen, sich an der Entwicklung zu beteiligen und das System nach den eigenen Bedürfnissen anzupassen.
-Um dich einzubringen, schau dir die [Contributing Guidelines](CONTRIBUTING.md) an.
+  <div>
+    <h1>🌩️ ByteStorm – Das modulare Minecraft Cloud-System</h1>
+    <p><strong>ByteStorm</strong> ist ein modulares, hochperformantes Cloud-System für Minecraft-Servernetzwerke.<br>
+    Es wurde von Grund auf in Java entwickelt, um Skalierbarkeit, Erweiterbarkeit und Wartbarkeit sicherzustellen.<br>
+    Es folgt dem Prinzip: <strong>"Ein Modul, eine Aufgabe – maximaler Impact!"</strong> 🧠💻<br>
+    Das coole an dem Projekt? Es ist <strong>komplett Open Source</strong>! Jeder kann mitmachen und das System erweitern.<br>
+    Jede/r ist herzlich eingeladen, sich an der Entwicklung zu beteiligen und das System nach den eigenen Bedürfnissen anzupassen.<br>
+    Um dich einzubringen, schau dir die <a href="CONTRIBUTING.md">Contributing Guidelines</a> an.</p>
+  </div>
+
+</div>
 
 ---
 
