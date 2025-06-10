@@ -1,15 +1,19 @@
-<div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
+<div style="display: flex; align-items: center; gap: 20px;">
 
-  <img alt="ByteStorm Logo" src="assets/img/logo.png" title="ByteStorm Logo" width="150" height="150" style="flex-shrink: 0;" />
+  <div style="display: flex; align-items: center; height: 100%;">
+    <img alt="ByteStorm Logo" src="assets/img/logo.png" title="ByteStorm Logo" width="150" height="150" style="display: block;" />
+  </div>
 
-  <div style="max-width: 800px;">
-    <h1 style="margin-top: 0;">🌩️ ByteStorm – Das modulare Minecraft Cloud-System</h1>
-    <p><strong>ByteStorm</strong> ist ein modulares, hochperformantes Cloud-System für Minecraft-Servernetzwerke.<br>
-    Es wurde von Grund auf in Java entwickelt, um Skalierbarkeit, Erweiterbarkeit und Wartbarkeit sicherzustellen.<br>
-    Es folgt dem Prinzip: <strong>"Ein Modul, eine Aufgabe – maximaler Impact!"</strong> 🧠💻<br>
-    Das coole an dem Projekt? Es ist <strong>komplett Open Source</strong>! Jeder kann mitmachen und das System erweitern.<br>
-    Jede/r ist herzlich eingeladen, sich an der Entwicklung zu beteiligen und das System nach den eigenen Bedürfnissen anzupassen.<br>
-    Um dich einzubringen, schau dir die <a href="CONTRIBUTING.md">Contributing Guidelines</a> an.</p>
+  <div style="flex: 1;">
+    <h1 style="margin: 0; padding: 0;">🌩️ ByteStorm – Das modulare Minecraft Cloud-System</h1>
+    <p style="margin-top: 10px;">
+      <strong>ByteStorm</strong> ist ein modulares, hochperformantes Cloud-System für Minecraft-Servernetzwerke.<br>
+      Es wurde von Grund auf in Java entwickelt, um Skalierbarkeit, Erweiterbarkeit und Wartbarkeit sicherzustellen.<br>
+      Es folgt dem Prinzip: <strong>"Ein Modul, eine Aufgabe – maximaler Impact!"</strong> 🧠💻<br>
+      Das coole an dem Projekt? Es ist <strong>komplett Open Source</strong>! Jeder kann mitmachen und das System erweitern.<br>
+      Jede/r ist herzlich eingeladen, sich an der Entwicklung zu beteiligen und das System nach den eigenen Bedürfnissen anzupassen.<br>
+      Um dich einzubringen, schau dir die <a href="CONTRIBUTING.md">Contributing Guidelines</a> an.
+    </p>
   </div>
 
 </div>
