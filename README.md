@@ -1,5 +1,7 @@
 # ⚡ ByteStorm – Das modulare Minecraft Cloud-System
 
+![ByteStorm Logo](assets/img/logo.png "ByteStorm Logo")
+
 **ByteStorm** ist ein modulares, hochperformantes Cloud-System für Minecraft-Servernetzwerke.  
 Es wurde von Grund auf in Java entwickelt, um Skalierbarkeit, Erweiterbarkeit und Wartbarkeit sicherzustellen.  
 Es folgt dem Prinzip: **"Ein Modul, eine Aufgabe – maximaler Impact!"** 🧠💻
