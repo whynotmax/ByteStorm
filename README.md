@@ -25,6 +25,7 @@ Um dich einzubringen, schau dir die [Contributing Guidelines](CONTRIBUTING.md) a
 ---
 
 ## 📖 Inhaltsverzeichnis
+- [🚀 Information](#-information)
 - [📖 Inhaltsverzeichnis](#-inhaltsverzeichnis)
 - [📦 Modulübersicht](#-modulübersicht)
   - [common/](#common---utilities--shared-logic)
