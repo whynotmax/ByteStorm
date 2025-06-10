@@ -30,8 +30,8 @@ Um dich einzubringen, schau dir die [Contributing Guidelines](CONTRIBUTING.md) a
   - [core/](#core---zentrale-steuerungseinheit)
   - [api/](#api---öffentliche-programmierschnittstelle)
   - [bridge/common/](#bridgecommon---common-modul-für-alle-bridge-module)
-  - [bridge/velocity/](#bridgevelocity---proxy-anbindung-velocitybungee)
-  - [bridge/legacy/](#bridgelegacy---legacy-proxy-anbindung-bungeecord)
+  - [bridge/velocity/](#bridgevelocity---proxy-anbindung-velocity)
+  - [bridge/legacy/](#bridgelegacy---legacy-proxy-anbindung-bungeecord--waterfall)
   - [bridge/spigot/](#bridgespigot---spigot-anbindung)
   - [bridge/paper/](#bridgepaper---paper-anbindung)
   - [bridge/purpur/](#bridgepurpur---purpur-anbindung)
@@ -90,13 +90,13 @@ Hier findest du eine Übersicht über alle Module und ihre jeweilige Verantwortu
 - Synchronisations-Tools
 - Konfigurationsmanagement für Bridge-Module
 
-### `bridge/velocity/` – 🌉 Proxy-Anbindung (Velocity/Bungee)
+### `bridge/velocity/` – 🌉 Proxy-Anbindung (Velocity)
 > Sorgt für die Kommunikation zwischen ByteStorm und Minecraft Instanzen:
 - Leitet Spieler-Events weiter
 - Synchronisiert Daten über Proxies
 - Ermöglicht zentrale Steuerung via Proxy
 
-### `bridge/legacy/` – 🕰️ Legacy Proxy-Anbindung (BungeeCord)
+### `bridge/legacy/` – 🕰️ Legacy Proxy-Anbindung (BungeeCord & Waterfall)
 > Für ältere BungeeCord-Installationen, die noch nicht auf Velocity umgestiegen sind:
 - Bietet ähnliche Funktionalität wie `bridge/proxy/`
 - Kompatibilität zu bestehenden BungeeCord-Setups
