@@ -1,16 +1,19 @@
 <div style="display: flex; align-items: flex-start; gap: 20px;">
 
-<img
-alt="ByteStorm Logo"
-src="assets/img/logo.png"
-title="ByteStorm Logo"
-width="100"
-height="100"
-style="margin-top: 4px;" />
+  <!-- Linker Bereich: Überschrift + Logo vertikal -->
+  <div style="display: flex; flex-direction: column; align-items: flex-start;">
+    <h1 style="margin: 0 0 10px 0;">🌩️ ByteStorm – Das modulare Minecraft Cloud-System</h1>
+    <img
+      alt="ByteStorm Logo"
+      src="assets/img/logo.png"
+      title="ByteStorm Logo"
+      width="120"
+      height="120" />
+  </div>
 
+  <!-- Rechter Bereich: Absatz -->
   <div>
-    <h1 style="margin: 0; padding: 0;">🌩️ ByteStorm – Das modulare Minecraft Cloud-System</h1>
-    <p style="margin-top: 10px;">
+    <p style="margin-top: 0;">
       <strong>ByteStorm</strong> ist ein modulares, hochperformantes Cloud-System für Minecraft-Servernetzwerke.<br>
       Es wurde von Grund auf in Java entwickelt, um Skalierbarkeit, Erweiterbarkeit und Wartbarkeit sicherzustellen.<br>
       Es folgt dem Prinzip: <strong>"Ein Modul, eine Aufgabe – maximaler Impact!"</strong> 🧠💻<br>
