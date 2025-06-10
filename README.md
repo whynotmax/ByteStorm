@@ -217,6 +217,8 @@ ByteStorm ist unter der [MIT-Lizenz](LICENSE) lizenziert.
 
 > Bereit, dein Netzwerk auf ein neues Level zu bringen? Willkommen bei **ByteStorm**! 🫡⚔️
 
+---
+
 <p align="center">
     Dieses Projekt wurde von <a href="https://github.com/whynotmax/">whynotmax</a> und dem <a href="https://github.com/NextForge-Development">nextforge.gg</a>-Team ins Leben gerufen.
     <br>
