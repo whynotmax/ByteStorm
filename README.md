@@ -102,6 +102,8 @@ Hier findest du eine Übersicht über alle Module und ihre jeweilige Verantwortu
 - Kompatibilität zu bestehenden BungeeCord-Setups
 - Ermöglicht Migration zu Velocity in Zukunft
 
+**Wichtig:** Dieses Modul ist nur zu Kompatibilitätszwecken enthalten und wird - sobald stabil - nicht mehr weiterentwickelt.
+
 ### `/bridge/spigot/` – 🧩 Spigot-Anbindung
 > Bindet ByteStorm direkt an Spigot-Server an:
 - Ermöglicht direkte Kommunikation mit Spigot-Plugins
