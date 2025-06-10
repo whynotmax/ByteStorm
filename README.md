@@ -215,7 +215,7 @@ ByteStorm ist unter der [MIT-Lizenz](LICENSE) lizenziert.
 
 ---
 
-> Bereit, dein Netzwerk auf ein neues Level zu bringen? Willkommen bei **ByteStorm**! 🫡⚔️
+Bereit, dein Netzwerk auf ein neues Level zu bringen? Willkommen bei **ByteStorm**! 🫡⚔️
 
 ---
 
