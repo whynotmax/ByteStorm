@@ -4,9 +4,10 @@
 
 Dieses Projekt ist in einer frühen Entwicklungsphase und wird ständig weiterentwickelt.
 Um die aktuellsten Informationen zu erhalten, schau bitte regelmäßig auf unserem [Discord](https://discord.gg/your-discord-link) vorbei!
-
 Um die Cloud auszutesten, kannst du ein Ticket auf unserem Discord erstellen.
-**Wichtig**: Das System ist noch nicht für den produktiven Einsatz geeignet und sollte nur zu Testzwecken verwendet werden!
+
+> [!IMPORTANT]
+> Das System ist noch nicht für den produktiven Einsatz geeignet und sollte nur zu Testzwecken verwendet werden!
 
 ---
 
@@ -102,7 +103,8 @@ Hier findest du eine Übersicht über alle Module und ihre jeweilige Verantwortu
 - Kompatibilität zu bestehenden BungeeCord-Setups
 - Ermöglicht Migration zu Velocity in Zukunft
 
-**Wichtig:** Dieses Modul ist nur zu Kompatibilitätszwecken enthalten und wird - sobald stabil - nicht mehr weiterentwickelt.
+> [!CAUTION]
+> Dieses Modul ist nur zu Kompatibilitätszwecken enthalten und wird - sobald stabil - nicht mehr weiterentwickelt.
 
 ### `/bridge/spigot/` – 🧩 Spigot-Anbindung
 > Bindet ByteStorm direkt an Spigot-Server an:
