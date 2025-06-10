@@ -1,4 +1,4 @@
 dependencies {
     // Gemeinsame Tools, evtl. Apache Commons, Guava
-    implementation 'com.google.guava:guava:32.1.2-jre'
+    implementation 'com.google.guava:guava:33.4.8-jre'
 }
