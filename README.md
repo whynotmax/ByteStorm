@@ -1,7 +1,7 @@
 # ⚡ ByteStorm – Das modulare Minecraft Cloud-System
 
 <p align="center">
-    <img alt="ByteStorm Logo" height="175" src="assets/img/logo.png" title="ByteStorm Logo" width="175" />
+    <img alt="ByteStorm Logo" height="175" src="assets/img/logo_transparent.png" title="ByteStorm Logo" width="175" />
 </p>
 
 **ByteStorm** ist ein modulares, hochperformantes Cloud-System für Minecraft-Servernetzwerke.  
