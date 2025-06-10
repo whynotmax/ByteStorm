@@ -1,7 +1,5 @@
 # ⚡ ByteStorm – Das modulare Minecraft Cloud-System
 
----
-
 ## 🚀 Information
 
 Dieses Projekt ist in einer frühen Entwicklungsphase und wird ständig weiterentwickelt.
