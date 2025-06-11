@@ -28,21 +28,21 @@ Um dich einzubringen, schau dir die [Contributing Guidelines](CONTRIBUTING.md) a
 - [🚀 Information](#-information)
 - [📖 Inhaltsverzeichnis](#-inhaltsverzeichnis)
 - [📦 Modulübersicht](#-modulübersicht)
-- [common/](#common---utilities--shared-logic) – Utilities & gemeinsame Logik für alle Module
-- [core/](#core---zentrale-steuerungseinheit) – Zentrale Steuerungseinheit & Hauptserverlogik
-- [api/](#api---öffentliche-programmierschnittstelle) – Öffentliche API für externe Plugins & Tools
-  - [bridge/common/](#bridgecommon---common-modul-für-alle-bridge-module) – Gemeinsame Logik für alle Bridge-Module
-  - [bridge/velocity/](#bridgevelocity---proxy-anbindung-velocity) – Proxy-Anbindung für Velocity
-  - [bridge/proxy-legacy/](#bridgeproxy-legacy---legacy-proxy-anbindung-bungeecord--waterfall) – Legacy-Proxy-Anbindung (BungeeCord & Waterfall)
-  - [bridge/spigot/](#bridgespigot---spigot-anbindung) – Spigot-Server-Anbindung
-  - [bridge/paper/](#bridgepaper---paper-anbindung) – Paper-Server-Anbindung
-  - [bridge/aspaper/](#bridgeaspaper---advanced-slime-paper-anbindung) – Advanced-Slime-Paper-Server-Anbindung
-  - [bridge/purpur/](#bridgepurpur---purpur-anbindung) – Purpur-Server-Anbindung
-  - [bridge/folia/](#bridgefolia---folia-anbindung) – Folia-Server-Anbindung
-  - [bridge/minestom/](#bridgeminestom---minestom-anbindung) – Minestom-Server-Anbindung
-  - [controller/](#controller---cli--web-controller) – CLI & Web-Controller zur Verwaltung
-  - [agent/](#agent---agent-auf-zielservern) – Remote-Agent auf Zielservern
-  - [dashboard/](#dashboard---web-dashboard-optional) – Optionales Web-Dashboard zur Administration
+  - [common/](#common---utilities--shared-logic) – Utilities & gemeinsame Logik für alle Module
+  - [core/](#core---zentrale-steuerungseinheit) – Zentrale Steuerungseinheit & Hauptserverlogik
+  - [api/](#api---öffentliche-programmierschnittstelle) – Öffentliche API für externe Plugins & Tools
+    - [bridge/common/](#bridgecommon---common-modul-für-alle-bridge-module) – Gemeinsame Logik für alle Bridge-Module
+    - [bridge/velocity/](#bridgevelocity---proxy-anbindung-velocity) – Proxy-Anbindung für Velocity
+    - [bridge/proxy-legacy/](#bridgeproxy-legacy---legacy-proxy-anbindung-bungeecord--waterfall) – Legacy-Proxy-Anbindung (BungeeCord & Waterfall)
+    - [bridge/spigot/](#bridgespigot---spigot-anbindung) – Spigot-Server-Anbindung
+    - [bridge/paper/](#bridgepaper---paper-anbindung) – Paper-Server-Anbindung
+    - [bridge/aspaper/](#bridgeaspaper---advanced-slime-paper-anbindung) – Advanced-Slime-Paper-Server-Anbindung
+    - [bridge/purpur/](#bridgepurpur---purpur-anbindung) – Purpur-Server-Anbindung
+    - [bridge/folia/](#bridgefolia---folia-anbindung) – Folia-Server-Anbindung
+    - [bridge/minestom/](#bridgeminestom---minestom-anbindung) – Minestom-Server-Anbindung
+    - [controller/](#controller---cli--web-controller) – CLI & Web-Controller zur Verwaltung
+    - [agent/](#agent---agent-auf-zielservern) – Remote-Agent auf Zielservern
+    - [dashboard/](#dashboard---web-dashboard-optional) – Optionales Web-Dashboard zur Administration
 - [🔧 Technischer Überblick](#-technischer-überblick)
 - [📁 Modulstruktur](#-modulstruktur)
 - [🚀 Zielgruppe](#-zielgruppe)
