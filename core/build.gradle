@@ -1,6 +1,6 @@
 dependencies {
-    implementation project(':common')
-    implementation project(':api')
+    api project(':common')
+    api project(':api')
 
     // Eventsystem oder eigene Tools
     implementation 'com.github.ben-manes.caffeine:caffeine:3.2.1'
