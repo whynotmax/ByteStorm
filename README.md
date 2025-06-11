@@ -33,9 +33,10 @@ Um dich einzubringen, schau dir die [Contributing Guidelines](CONTRIBUTING.md) a
   - [api/](#api---öffentliche-programmierschnittstelle)
   - [bridge/common/](#bridgecommon---common-modul-für-alle-bridge-module)
   - [bridge/velocity/](#bridgevelocity---proxy-anbindung-velocity)
-  - [bridge/legacy/](#bridgeproxy-legacy---legacy-proxy-anbindung-bungeecord--waterfall)
+  - [bridge/proxy-legacy/](#bridgeproxy-legacy---legacy-proxy-anbindung-bungeecord--waterfall)
   - [bridge/spigot/](#bridgespigot---spigot-anbindung)
   - [bridge/paper/](#bridgepaper---paper-anbindung)
+  - [bridge/aspaper/](#bridgeaspaper---advanced-slime-paper-anbindung)
   - [bridge/purpur/](#bridgepurpur---purpur-anbindung)
   - [bridge/folia/](#bridgefolia---folia-anbindung)
   - [bridge/minestom/](#bridgeminestom---minestom-anbindung)
@@ -120,6 +121,12 @@ Hier findest du eine Übersicht über alle Module und ihre jeweilige Verantwortu
 - Nutzen von Paper-spezifischen APIs
 - Erweiterbar für zukünftige Paper-Versionen
 
+### `bridge/aspaper/` – 🧩 Advanced-Slime-Paper-Anbindung
+> Bindet ByteStorm direkt an Advanced-Slime-Paper-Server an:
+- Tut das gleiche wie `bridge/paper/`, aber optimiert für Advanced-Slime-Paper Features
+- Nutzen von Advanced-Slime-Paper-spezifischen APIs
+- Erweiterbar für zukünftige Advanced-Slime-Paper-Versionen
+
 ### `bridge/purpur/` – 🧩 Purpur-Anbindung
 > Bindet ByteStorm direkt an Purpur-Server an:
 - Tut das gleiche wie `bridge/paper/`, aber optimiert für Purpur-Server Features
@@ -188,9 +195,10 @@ ByteStorm/
 ├── bridge/ → Verbindung zu Proxies
 │   ├── common/ → Gemeinsame Logik für alle Bridge-Module
 │   ├── velocity/ → Velocity Proxy
-│   ├── legacy/ → BungeeCord Proxy
+│   ├── proxy-legacy/ → BungeeCord Proxy
 │   ├── spigot/ → Spigot-Anbindung
 │   ├── paper/ → Paper-Anbindung
+│   ├── aspaper/ → Advanced-Slime-Paper-Anbindung
 │   ├── purpur/ → Purpur-Anbindung
 │   ├── folia/ → Folia-Anbindung
 │   └── minestom/ → Minestom-Anbindung
