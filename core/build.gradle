@@ -2,6 +2,51 @@ dependencies {
     api project(':common')
     api project(':api')
 
+    api 'org.redisson:redisson:3.49.0'
+    api 'jakarta.annotation:jakarta.annotation-api:3.0.0'
+
     // Eventsystem oder eigene Tools
     implementation 'com.github.ben-manes.caffeine:caffeine:3.2.1'
+}
+
+def generatedDir = "$buildDir/generated/sources/constants"
+
+tasks.register('generateCloudConstants') {
+    doLast {
+        def file = file("$generatedDir/io/bytestorm/core/bootstrap/CloudConstants.java")
+        if (file.exists()) {
+            file.delete()
+        }
+        file.parentFile.mkdirs()
+        file.text = """
+            package io.bytestorm.core.bootstrap;
+
+            import lombok.experimental.UtilityClass;
+
+            @UtilityClass
+            public final class CloudConstants {
+
+                public static final String CLOUD_NAME = "ByteStorm";
+                public static final String VERSION = "${project.version}";
+                public static final String BUILD_TIMESTAMP = "${new Date().format("yyyy-MM-dd'T'HH:mm:ss")}";
+                public static final String COMMIT_HASH = "${getGitHash()}";
+                public static final String JDK_VERSION = "${System.getProperty('java.version')}";
+                public static final String JDK_VENDOR = "${System.getProperty('java.vendor')}";
+
+            }
+        """.stripIndent()
+    }
+}
+
+compileJava.dependsOn(tasks.named("generateCloudConstants"))
+
+sourceSets.main.java.srcDirs += generatedDir
+
+String getGitHash() {
+    def stdout = new ByteArrayOutputStream()
+    exec {
+        commandLine 'git', 'rev-parse', '--short', 'HEAD'
+        standardOutput = stdout
+    }
+    return stdout.toString().trim()
 }

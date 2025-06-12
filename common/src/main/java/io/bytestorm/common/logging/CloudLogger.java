@@ -1,12 +1,20 @@
 package io.bytestorm.common.logging;
 
+import java.util.List;
+
 public interface CloudLogger {
 
-    public static final String LOG_FILE_KEY = "bytestorm.log.file";
-    public static final String DEFAULT_LOG_LEVEL_KEY = "bytestorm.log.level";
-    public static final String SHOW_DATE_TIME_KEY = "bytestorm.log.showDateTime";
+    String LOG_FILE_KEY = "bytestorm.log.file";
+    String DEFAULT_LOG_LEVEL_KEY = "bytestorm.log.level";
+    String SHOW_DATE_TIME_KEY = "bytestorm.log.showDateTime";
 
     void log(LoggerLevel level, String message, Object... args);
+
+    void addChildLogger(CloudLogger childLogger);
+
+    void removeChildLogger(CloudLogger childLogger);
+
+    List<CloudLogger> getChildLoggers();
 
     default void info(String message, Object... args) {
         log(LoggerLevel.INFO, message, args);
