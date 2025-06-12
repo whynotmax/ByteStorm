@@ -1,4 +1,6 @@
 package io.bytestorm.api.messaging;
 
-public class MessageSubscriber {
+@FunctionalInterface
+public interface MessageSubscriber<T extends Message> {
+    void onMessage(T message);
 }
