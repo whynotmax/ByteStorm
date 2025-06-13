@@ -6,6 +6,10 @@ import io.bytestorm.common.events.CloudEventBus;
 import io.bytestorm.common.logging.CloudLogger;
 import io.bytestorm.common.logging.LoggerFactory;
 import io.bytestorm.common.util.FileUtil;
+import io.bytestorm.core.impl.messaging.MessagingServiceImpl;
+import io.bytestorm.core.impl.permission.CloudPermissionServiceImpl;
+import io.bytestorm.core.impl.player.CloudPlayerServiceImpl;
+import io.bytestorm.core.impl.server.CloudServerServiceImpl;
 
 import java.io.File;
 import java.io.IOException;
@@ -16,28 +20,36 @@ public final class CloudCore {
     public static CloudLogger CONSOLE;
     public static CloudLogger FILE_LOGGER;
 
+    CloudPlayerServiceImpl cloudPlayerService;
+    CloudServerServiceImpl cloudServerService;
+    CloudPermissionServiceImpl cloudPermissionService;
+    MessagingServiceImpl messagingService;
+    CloudEventBus eventBus;
+
+    private CloudCore() {
+        CONSOLE.info("Loading Services... 🔧");
+
+        this.cloudPlayerService = new CloudPlayerServiceImpl();
+        this.cloudServerService = new CloudServerServiceImpl();
+        this.cloudPermissionService = new CloudPermissionServiceImpl();
+        this.messagingService = new MessagingServiceImpl("", "");
+        this.eventBus = new CloudEventBus();
+
+        CONSOLE.info("Initializing CloudAPI... 🌐");
+
+        CloudAPI.init(this.cloudPlayerService, this.cloudServerService, this.cloudPermissionService, this.messagingService, this.eventBus);
+
+        CONSOLE.info("CloudAPI initialized successfully! ✅");
+        CONSOLE.info("Services loaded successfully! ✅");
+
+    }
+
     public static void main(String[] args) throws IOException {
         initializeLogging();
 
         CONSOLE.info("Starting ByteStorm Core... 🚀 (This may take a moment)");
 
-        try {
-            // Services laden
-            ServiceRegistry.init();
-
-            // Initialisiere CloudAPI
-            CloudAPI.init(ServiceRegistry.get(PlayerService.class), ServiceRegistry.get(ServerService.class), ServiceRegistry.get(PermissionService.class), ServiceRegistry.get(MessagingService.class), ServiceRegistry.get(CloudEventBus.class));
-
-            // Starte Lifecycle
-            CloudLifecycleManager lifecycle = new CloudLifecycleManager();
-            lifecycle.start();
-
-            System.out.println("✅ ByteStorm Core ready for duty!");
-        } catch (Exception e) {
-            System.err.println("❌ Failed to boot ByteStorm:");
-            e.printStackTrace();
-            System.exit(1);
-        }
+        new CloudCore();
     }
 
     private static void initializeLogging() {

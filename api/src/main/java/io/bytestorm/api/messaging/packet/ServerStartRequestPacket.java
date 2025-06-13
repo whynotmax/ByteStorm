@@ -2,7 +2,7 @@ package io.bytestorm.api.messaging.packet;
 
 import lombok.NonNull;
 
-public record ServerStartRequestPacket(String groupName, String templateName, int serverCount, boolean forced) {
+public record ServerStartRequestPacket(String groupName, String templateName, int serverCount, boolean forced) implements Packet {
 
     public ServerStartRequestPacket {
         if (groupName == null || groupName.isEmpty()) {

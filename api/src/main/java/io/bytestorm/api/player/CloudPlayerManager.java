@@ -11,6 +11,8 @@ public interface CloudPlayerManager {
 
     Optional<CloudPlayer> getPlayer(String name);
 
+    CloudPlayer getOrCreatePlayer(UUID uniqueId);
+
     void registerPlayer(CloudPlayer player);
 
     void unregisterPlayer(UUID uniqueId);
@@ -20,6 +22,8 @@ public interface CloudPlayerManager {
     CompletableFuture<Optional<CloudPlayer>> getPlayerAsync(UUID uniqueId);
 
     CompletableFuture<Optional<CloudPlayer>> getPlayerAsync(String name);
+
+    CompletableFuture<CloudPlayer> getOrCreatePlayerAsync(UUID uniqueId);
 
     CompletableFuture<List<CloudPlayer>> getAllPlayersAsync();
 }
