@@ -34,12 +34,7 @@ Um dich einzubringen, schau dir die [Contributing Guidelines](CONTRIBUTING.md) a
     - [bridge/common/](#bridgecommon---common-modul-für-alle-bridge-module) – Gemeinsame Logik für alle Bridge-Module
     - [bridge/velocity/](#bridgevelocity---proxy-anbindung-velocity) – Proxy-Anbindung für Velocity
     - [bridge/proxy-legacy/](#bridgeproxy-legacy---legacy-proxy-anbindung-bungeecord--waterfall) – Legacy-Proxy-Anbindung (BungeeCord & Waterfall)
-    - [bridge/spigot/](#bridgespigot---spigot-anbindung) – Spigot-Server-Anbindung
     - [bridge/paper/](#bridgepaper---paper-anbindung) – Paper-Server-Anbindung
-    - [bridge/aspaper/](#bridgeaspaper---advanced-slime-paper-anbindung) – Advanced-Slime-Paper-Server-Anbindung
-    - [bridge/purpur/](#bridgepurpur---purpur-anbindung) – Purpur-Server-Anbindung
-    - [bridge/folia/](#bridgefolia---folia-anbindung) – Folia-Server-Anbindung
-    - [bridge/minestom/](#bridgeminestom---minestom-anbindung) – Minestom-Server-Anbindung
     - [controller/](#controller---cli--web-controller) – CLI & Web-Controller zur Verwaltung
     - [agent/](#agent---agent-auf-zielservern) – Remote-Agent auf Zielservern
     - [dashboard/](#dashboard---web-dashboard-optional) – Optionales Web-Dashboard zur Administration
@@ -108,42 +103,11 @@ Hier findest du eine Übersicht über alle Module und ihre jeweilige Verantwortu
 > [!CAUTION]
 > Dieses Modul ist nur zu Kompatibilitätszwecken enthalten und wird - sobald stabil - nicht mehr weiterentwickelt.
 
-### `/bridge/spigot/` – 🧩 Spigot-Anbindung
-> Bindet ByteStorm direkt an Spigot-Server an:
-- Ermöglicht direkte Kommunikation mit Spigot-Plugins
-- Sorgt für nahtlose Integration in Spigot-Ökosysteme
-- Ermöglicht serverseitige Steuerung und Abfragen
-- Erweiterbar für zukünftige Spigot-Versionen
-
 ### `bridge/paper/` – 🧩 Paper-Anbindung
 > Bindet ByteStorm direkt an Paper-Server an:
 - Tut das gleiche wie `bridge/spigot/`, aber optimiert für Paper-Server Features
 - Nutzen von Paper-spezifischen APIs
 - Erweiterbar für zukünftige Paper-Versionen
-
-### `bridge/aspaper/` – 🧩 Advanced-Slime-Paper-Anbindung
-> Bindet ByteStorm direkt an Advanced-Slime-Paper-Server an:
-- Tut das gleiche wie `bridge/paper/`, aber optimiert für Advanced-Slime-Paper Features
-- Nutzen von Advanced-Slime-Paper-spezifischen APIs
-- Erweiterbar für zukünftige Advanced-Slime-Paper-Versionen
-
-### `bridge/purpur/` – 🧩 Purpur-Anbindung
-> Bindet ByteStorm direkt an Purpur-Server an:
-- Tut das gleiche wie `bridge/paper/`, aber optimiert für Purpur-Server Features
-- Nutzen von Purpur-spezifischen APIs
-- Erweiterbar für zukünftige Purpur-Versionen
-
-### `bridge/folia/` – 🧩 Folia-Anbindung
-> Bindet ByteStorm direkt an Folia-Server an:
-- Tut das gleiche wie `bridge/paper/`, aber optimiert für Folia-Server Features
-- Nutzen von Folia-spezifischen APIs
-- Erweiterbar für zukünftige Folia-Versionen
-
-### `bridge/minestom/` – 🚀 Minestom-Anbindung
-> Bindet ByteStorm direkt an Minestom-Server an:
-- Tut das gleiche wie `bridge/paper/`, aber optimiert für Minestom-Server Features
-- Nutzen von Minestom-spezifischen APIs
-- Erweiterbar für zukünftige Minestom-Versionen
 
 ---
 

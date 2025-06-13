@@ -12,14 +12,9 @@
             <option value="$PROJECT_DIR$/agent" />
             <option value="$PROJECT_DIR$/api" />
             <option value="$PROJECT_DIR$/bridge" />
-            <option value="$PROJECT_DIR$/bridge/aspaper" />
             <option value="$PROJECT_DIR$/bridge/common" />
-            <option value="$PROJECT_DIR$/bridge/folia" />
-            <option value="$PROJECT_DIR$/bridge/minestom" />
             <option value="$PROJECT_DIR$/bridge/paper" />
             <option value="$PROJECT_DIR$/bridge/proxy-legacy" />
-            <option value="$PROJECT_DIR$/bridge/purpur" />
-            <option value="$PROJECT_DIR$/bridge/spigot" />
             <option value="$PROJECT_DIR$/bridge/velocity" />
             <option value="$PROJECT_DIR$/common" />
             <option value="$PROJECT_DIR$/controller" />
