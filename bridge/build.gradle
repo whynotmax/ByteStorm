@@ -4,7 +4,7 @@ dependencies {
     api project(':api')
 
     // Bungee oder Velocity-API (je nach Bedarf)
-    compileOnly 'com.velocitypowered:velocity-api:3.2.0-SNAPSHOT'
-    annotationProcessor 'com.velocitypowered:velocity-api:3.2.0-SNAPSHOT'
+    compileOnly 'com.velocitypowered:velocity-api:4.0.0-SNAPSHOT'
+    annotationProcessor 'com.velocitypowered:velocity-api:4.0.0-SNAPSHOT'
     compileOnly("io.papermc.paper:paper-api:1.17-R0.1-SNAPSHOT")
 }
